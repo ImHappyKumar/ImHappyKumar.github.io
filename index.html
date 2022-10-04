@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Including Font Awesome Account Kit Code -->
+    <script src="https://kit.fontawesome.com/82c36e36fe.js" crossorigin="anonymous"></script>
+    <!-- Including CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <!-- Adding Favicon -->
+    <link rel="icon" href="CSS/img/favicon.ico">
+    <title>Happy Kumar</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="background">
+        <div class="logo">
+            <img src="CSS/img/logo.jpg" alt="logo">
+        </div>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li><a class="home active" href="#home">Home</a></li>
+                <li><a class="about" href="#about">About</a></li>
+                <li><a class="education" href="#education">Education</a></li>
+                <li><a class="portfolio" href="#portfolio">Portfolio</a></li>
+                <li><a class="contact" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <span class="hamburger"><i class="fa-solid fa-bars"></i></span>
+    </header>
+
+    <!-- MOBILE MENU -->
+    <div class="popup-mobile-menu">
+        <!-- L.H.S mobile navbar popup -->
+        <div class="mobile-navbar background">
+            <span class="close-menu"><i class="fa-solid fa-xmark"></i></span>
+            <div class="mobile-logo">
+                <img src="CSS/img/logo.jpg" alt="logo">
+            </div>
+            <div class="description">
+                Hi, I'm <span class="name">Happy Kumar</span><br>
+                <span class="profession">a Front-end Web Developer</span>
+            </div>
+            <hr>
+            <ul class="mobile-nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- R.H.S blank mobile navbar popup -->
+        <div class="blank-popup"></div>
+    </div>
+
+    <!-- HOME SECTION -->
+    <section class="home-section background" id="home">
+        <div class="home-container">
+            <div class="home-content">
+                <span class="subtitle">Welcome to my world</span>
+                <h1 class="title">Hi, I'm <span class="name">Happy Kumar</span><br>
+                    <span class="profession">a Front-end Web Developer</span>
+                </h1>
+                <p class="description">I will design and develop modern and responsive websites using HTML, CSS and
+                    JavaScript. I am very passionate and dedicated to my work. I have acquired the skills and knowledge
+                    necessary to make your project a success.
+                </p>
+            </div>
+
+            <div class="home-banner">
+                <div class="banner-box">
+                    <img src="CSS/img/logo.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section background" id="about">
+        <div class="about-container">
+            <h1 class="title">About Me</h1>
+            <p class="description">Hi! My name is Happy Kumar. I am from Roorkee and I am a recent graduate from
+                Uttarakhand Technical University where I have completed my bachelors in the field of Computer Science &
+                Engineering. I am a Front-End Web Developer, and I am very passionate and dedicated to my work. Since my
+                school days, I have been quite curious about websites and softwares - How they work? and always wanted
+                to work in the field of Web Development or Software Development. With this curiosity I have learned
+                C/C++ languages in my school days. And in my college days, I mainly focused in the field of Web
+                Development and start working with some basic languages like HTML, CSS, JavaScript, etc. I have acquired
+                the skills and knowledge necessary to make your project a success. Talking about my interests and
+                hobbies, I am really interested in making websites. That is why I opted to pursue my bachelors in the
+                field of Computer Science & Engineering. Apart from this, I am also intrested in travelling - exploring
+                new places, photography, meditation, and solving mathematics problems.</p>
+            <div class="about-short">
+                <h2 class="subtitle">Personal Profile</h2>
+                <div class="profile-box">
+                    <div class="is-left">
+                        <ul>
+                            <li class="description">
+                                <i class="fa-solid fa-cake-candles"></i><span><label>Birthday: </label>10/09/2001</span>
+                            </li>
+                            <li class="description">
+                                <i class="fa-solid fa-mars"></i><span><label>Gender: </label>Male</span>
+                            </li>
+                            <li class="description">
+                                <i class="fa-solid fa-globe"></i><span><label>Nationality: </label>Indian</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="is-right">
+                        <ul>
+                            <li class="description">
+                                <i class="fa-solid fa-graduation-cap"></i><span><label>Qualification:
+                                    </label>Graduate</span>
+                            </li>
+                            <li class="description">
+                                <i class="fa-solid fa-language"></i><span><label>Languages: </label>Hindi and
+                                    English</span>
+                            </li>
+                            <li class="description">
+                                <i class="fa-solid fa-code"></i><span><label>Interests: </label>Coding, Listening Music, Meditation</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="education-section background" id="education">
+        <div class="education-container">
+            <h1 class="title">My Education</h1>
+            <div class="tab-container">
+                <div class="subtitle tab active-tab" id="tab1" onClick="JavaScript:selectTab(1);">Graduation</div>
+                <div class="subtitle tab" id="tab2" onClick="JavaScript:selectTab(2);">Intermediate</div>
+                <div class="subtitle tab" id="tab3" onClick="JavaScript:selectTab(3);">Matriculate</div>
+            </div>
+            <div class="tabsContent">
+                <div id="tab1Content">
+                    <ul>
+                        <li class="description"><i class="fa-solid fa-graduation-cap"></i>B.Tech in Computer Science &
+                            Engineering</li>
+                        <li class="description"><i class="fa-solid fa-building-columns"></i>Uttarakhand Technical
+                            University, Dehradun</li>
+                        <li class="description"><i class="fa-solid fa-calendar-days"></i>2018-22</li>
+                        <li class="description"><i class="fa-solid fa-percent"></i>80%</li>
+                    </ul>
+                </div>
+                <div id="tab2Content">
+                    <ul>
+                        <li class="description"><i class="fa-solid fa-graduation-cap"></i>12th</li>
+                        <li class="description"><i class="fa-solid fa-building-columns"></i>Skyward Sr. Sec. School,
+                            Roorkee affiliated to CBSE</li>
+                        <li class="description"><i class="fa-solid fa-calendar-days"></i>2018</li>
+                        <li class="description"><i class="fa-solid fa-percent"></i>85.6%</li>
+                    </ul>
+                </div>
+                <div id="tab3Content">
+                    <ul>
+                        <li class="description"><i class="fa-solid fa-graduation-cap"></i>10th</li>
+                        <li class="description"><i class="fa-solid fa-building-columns"></i>Skyward Sr. Sec. School,
+                            Roorkee affiliated to CBSE</li>
+                        <li class="description"><i class="fa-solid fa-calendar-days"></i>2016</li>
+                        <li class="description"><i class="fa-solid fa-percent"></i>8.2 CGPA</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section class="portfolio-section background" id="portfolio">
+        <div class="portfolio-container">
+            <h1 class="title">My Portfolio</h1>
+            <div class="portfolio-box-container">
+                <div class="portfolio-box">
+                    <div class="portfolio-img">
+                        <img src="CSS/img/personal.png" alt="Personal">
+                    </div>
+                    <div class="portfolio-content">
+                        <h2 class="subtitle">
+                            Personal Website
+                        </h2>
+                        <p class="description">This is my personal site which shows all information about me. I have
+                            also added MySQL to its contact page using PHP.</p>
+                    </div>
+                    <div class="portfolio-demo">
+                        <a href="https://github.com/ImHappyKumar/ImHappyKumar.github.io" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://ImHappyKumar.github.io" target="_blank"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <div class="portfolio-img">
+                        <img src="CSS/img/chatroom.png" alt="ChatRoom">
+                    </div>
+                    <div class="portfolio-content">
+                        <h2 class="subtitle">
+                            ChatRoom
+                        </h2>
+                        <p class="description">This website provides you a chat room where multiple members who joined
+                            the room can chat with each other. It is made with the help of "socket.io" used in Node.js.
+                        </p>
+                    </div>
+                    <div class="portfolio-demo">
+                        <a href="https://github.com/ImHappyKumar/ChatRoom" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <!-- <a href="" target="_blank"><i class="fa-solid fa-link"></i></a> -->
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <div class="portfolio-img">
+                        <img src="CSS/img/library.png" alt="Library">
+                    </div>
+                    <div class="portfolio-content">
+                        <h2 class="subtitle">
+                            Day Dream Library
+                        </h2>
+                        <p class="description">This is a front-end work of a library website which shows all
+                            informations about Day Dream Library.</p>
+                    </div>
+                    <div class="portfolio-demo">
+                        <a href="https://github.com/ImHappyKumar/DayDreamLibrary" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://ImHappyKumar.github.io/DayDreamLibrary/" target="_blank"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <div class="portfolio-img">
+                        <img src="CSS/img/corona.png" alt="Corona">
+                    </div>
+                    <div class="portfolio-content">
+                        <h2 class="subtitle">
+                            Corona Tracking Map
+                        </h2>
+                        <p class="description">This website will plot corona virus cases on World Map using JavaScript,
+                            mapbox and static data of corona virus cases in JSON format.</p>
+                    </div>
+                    <div class="portfolio-demo">
+                        <a href="https://github.com/ImHappyKumar/CoronaTrackingMap" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                        <a href="https://ImHappyKumar.github.io/CoronaTrackingMap/" target="_blank"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section background" id="contact">
+        <div class="contact-container">
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-details">
+                <p class="description">I am available for freelance work. Please fill out this form to contact with me
+                    or connect with me on my social accounts.</p>
+                <!-- <h5 class="description"><i class="fa-solid fa-envelope"></i>Email</h5> -->
+                <div class="social-icons">
+                    <span class="subtitle">Connect With Me</span><br>
+                    <a href="https://facebook.com/ImHappyKumar" target="_blank"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/happykumarofficial" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/ImHappyKumar" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://t.me/ImHappyKumar" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://linkedin.com/in/ImHappyKumar/" target="_blank"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/ImHappyKumar/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <form action="contact.php" method="post" class="contact-form">
+                <input class="description" type="name" name="txtName" id="txtName" placeholder="Name"
+                    autocomplete="off" required>
+                <input class="description" type="tel" name="txtPhone" id="txtPhone" placeholder="Phone"
+                    autocomplete="off" required>
+                <input class="description" type="email" name="txtEmail" id="txtEmail" placeholder="Email"
+                    autocomplete="off" required>
+                <textarea class="description" name="txtMessage" id="txtMessage" placeholder="Message" autocomplete="off"
+                    cols="30" rows="5" required></textarea>
+                <button class="btn subtitle" type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="background">
+        <p class="description">All rights reserved &copy; 2022 | Happy Kumar</p>
+    </footer>
+
+    <!-- TOP BUTTON -->
+    <button onclick="topFunction()" id="topBtn" title="Go To Top"><i class="fa-solid fa-arrow-up"></i></button>
+
+</body>
+
+<!-- Including JS -->
+<script src="JS/script.js"></script>
+
+</html>
